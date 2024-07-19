@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BackEndFixage.Models.Enums
+public enum FurnitureTypeCategory
 {
-    internal class FurnitureTypeCategory
-    {
-    }
+    Chair,
+    Table,
+    Sofa,
+    Bed,
+    Cabinet,
+    Desk,
+    Other
 }
