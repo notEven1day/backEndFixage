@@ -34,6 +34,8 @@ public class User
     [MaxLength(255)]  
     public string ProfilePicUrl { get; set; }
 
+    //public string ENUM role;
+
     public virtual ICollection<Order> Orders { get; set; }
     public virtual Cart Cart { get; set; }
 
